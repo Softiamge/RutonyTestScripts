@@ -7,17 +7,16 @@ namespace RutonyChat {
 
        
         public Queue<string> queue = new Queue<string>();
-		public bool _state = false;
-		public string Comm = "!ft";
-		public string Phrase_start = "Стример принимает заявки на FT3";
-		public string Phrase_stop = "Стример не принимает заявки";
+	public bool _state = false;
+	public string Comm = "!ft";
+	public string Phrase_start = "Стример принимает заявки на FT3";
+	public string Phrase_stop = "Стример не принимает заявки";
         public string Phrase_mt = "В очереди никого не осталось";
         public string Phrase_cnt = "В очереди $cnt человек";
-
-
-        public string Phrase_pl_add = "$name ты добавлен в очередь, твой номер $place";
-		public string Phrase_pl_wl = "$name, Спасибо за игру";
-		public string Phrase_pl_del = "$name исключен из очереди";
+	
+	public string Phrase_pl_add = "$name ты добавлен в очередь, твой номер $place";
+	public string Phrase_pl_wl = "$name, Спасибо за игру";
+	public string Phrase_pl_del = "$name исключен из очереди";
 
         public void NewAlert(string site, string typeEvent, string subplan, string name, string text, float donate, string currency, int qty)
         {
